@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Integrated Audit Center</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: #f4f6fa;
+      color: #222;
+    }
+    header {
+      background-color: #003366;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    header img {
+      width: 140px;
+      margin-bottom: 10px;
+    }
+    h1 {
+      margin: 10px 0 0;
+      font-size: 26px;
+    }
+    .lang-btn {
+      margin-top: 10px;
+      background: #fff;
+      color: #003366;
+      border: 1px solid #003366;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+      font-family: 'Cairo', sans-serif;
+    }
+    .content {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 40px;
+      background: white;
+      border-radius: 8px;
+      padding: 25px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .section h2 {
+      color: #003366;
+      margin-top: 0;
+    }
+    .services-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .service-box {
+      flex: 1 1 220px;
+      background: #f0f0f0;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .service-box div:first-child {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    form.contact-form input,
+    form.contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: 'Cairo', sans-serif;
+    }
+    form.contact-form button {
+      background-color: #003366;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div style="position:fixed;top:20px;right:20px;z-index:1000;">
+    <a href="index.html.html" style="background:#003366;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;">العربية</a>
+  </div>
+
+  <header>
+    <img src="شعار المركز (2).png" alt="Center Logo" />
+    <h1>Integrated Audit Center</h1>
+    <h2 style="font-size:16px; font-weight: normal;">Integrated Audit Center</h2>
+    <p style="font-size:18px; margin-top:8px;">Professional Internal Audit Services</p>
+  </header>
+
+  <div class="content">
+    <div class="section">
+      <h2>About Us</h2>
+      <p>
+        Integrated Audit Center is a consulting firm specializing in providing internal audit, compliance, and risk assessment services to institutions in both the public and private sectors, in accordance with the highest professional standards under the supervision of a Certified Internal Auditor (CIA).
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Vision and Mission</h2>
+      <p><strong>Vision:</strong> To enhance the quality of internal auditing to improve the efficiency and reliability of institutions.</p>
+      <p><strong>Mission:</strong> To provide professional audit services that promote governance, reduce risks, and deliver value to clients.</p>
+    </div>
+
+    <div class="section">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-box"><div>🛡️</div><div>Comprehensive Internal Auditing</div></div>
+        <div class="service-box"><div>📊</div><div>Risk Assessment and Management</div></div>
+        <div class="service-box"><div>⚖️</div><div>Regulatory Compliance Review</div></div>
+        <div class="service-box"><div>📋</div><div>Policies, Procedures & Documentation</div></div>
+        <div class="service-box"><div>✅</div><div>All Internal Audit Services</div></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Contact Us</h2>
+      <p>
+        Email: integrated_audit@outlook.sa<br/>
+        Address: Riyadh, Saudi Arabia
+      </p>
+      <form class="contact-form" action="mailto:integrated_audit@outlook.sa" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Integrated Audit Center. All rights reserved.
+  </footer>
+</body>
+</html>
